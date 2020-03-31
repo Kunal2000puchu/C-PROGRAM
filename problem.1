@@ -7,18 +7,18 @@ If n is even and greater than 20, print Not Weird
 */
 
 #include<stdio.h>
-void clrscr()                         //clear screen funtion declaration
+void clrscr()                         
 {
  system("clear");
 }
 
 void main()                           
 {
- int n;                               //variable declaration
- clrscr();                            //clear screen function call
+ int n;                              
+ clrscr();                           
  printf("ENTER A NUMBER  :");
  scanf("%d",&n);
- if(n%2!=0)                          //conditions 
+ if(n%2!=0)                      
    {
     printf("\nWIERD");
    }
@@ -26,7 +26,7 @@ void main()
    {
      if( n>=2 && n<=5)
        {
-        printf("\nNOT WIERD");       //output
+        printf("\nNOT WIERD");       
        }
      else if( n>=6 && n<=20)
        {
