@@ -1,15 +1,15 @@
 //Write a C program to input month number and print number of days in that month.
 #include<stdio.h>
 #include<ctype.h>
-void clrscr()                         //clear screen funtion declaration
+void clrscr()                        
 {
  system("clear");
 }
 
 void main()
  {
-  int a;                                //variable declaration
-  clrscr();                             //clear screen funtion call
+  int a;                                
+  clrscr();                             
   printf("\nEnter an character :");
   scanf("%d",&a);
   switch(a)
