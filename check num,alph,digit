@@ -1,14 +1,14 @@
 //C program to input any character and check whether it is alphabet, digit or special character
 #include<stdio.h>
 #include<ctype.h>
-void clrscr()                         //clear screen funtion declaration
+void clrscr()                         
 {
  system("clear");
 }
 
 void main()
 {
- char a;                             //variable declaration
+ char a;                            
  clrscr();
  printf("\nEnter an character :");
  scanf("%c",&a);
