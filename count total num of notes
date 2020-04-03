@@ -2,7 +2,7 @@
 #include<stdio.h>
 void main()
  {
-  int n,th,fh,h,f,tw,t,fc,tc,oc;         //variable declaration
+  int n,th,fh,h,f,tw,t,fc,tc,oc;         
   int x=2000;
   printf("Enter an amount  :");
   scanf("%d",&n);
