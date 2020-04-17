@@ -1,2 +1,0 @@
-# Kunal-Acharya-
-c programe
