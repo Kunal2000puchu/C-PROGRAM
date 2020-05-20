@@ -1,4 +1,4 @@
-**//addition of matrix//**
+//addition of matrix//
 #include<stdio.h>
 #define ROW 2
 #define COL 3
