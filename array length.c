@@ -1,11 +1,4 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
+//** write a c pro to find a length of a array**//
 #include <stdio.h>
 #define MAX 20
 int main()
