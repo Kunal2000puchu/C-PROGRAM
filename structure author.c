@@ -1,3 +1,8 @@
+//Make a structure Author with name and email-id as its data variables.
+//Write appropriate read function for this structure.
+// Make another structure Book with name, price, quantity and author (variable of structure Author) as data members.
+//Design appropriate read function for this structure variable.
+//Make two variables of the book with values provided by the user and display the email-id of the author of book with higher price.//
 #include<stdio.h>
 
 struct author
