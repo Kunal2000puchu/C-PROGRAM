@@ -1,19 +1,23 @@
-//** Write a C program to add two numbers using pointers.**//
-
 #include <stdio.h>
+ 
 int main()
 {
-   int x,y, *p, *q, sum;
-
-   printf("Enter two integers to add\n");
+   int x, y, *a, *b, temp;
+ 
+   printf("Enter the value of x and y\n");
    scanf("%d%d", &x, &y);
-
-   p = &x;
-   q = &y;
-
-   sum = *p + *q;
-
-   printf("Sum of the numbers = %d\n", sum);
-
+ 
+   printf("Before Swapping\nx = %d\ny = %d\n", x, y);
+ 
+   a = &x;
+   b = &y;
+ 
+   temp = *b;
+   *b = *a;
+   *a = temp;
+ 
+   printf("After Swapping\nx = %d\ny = %d\n", x, y);
+ 
    return 0;
 }
+
