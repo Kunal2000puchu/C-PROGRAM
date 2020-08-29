@@ -1,22 +1,37 @@
-//** Write a C program to input and print array elements using pointer.**//
+//**Write a program to reverse a string use functions and pointers**//
+
 #include<stdio.h>
-#define max_size 20
+#include <string.h>
+
+void reverse(char* );  //function declartion
+ 
 int main()
 {
-    int arr[20];
-    int i,n;
-    int *ptr=arr;
-    printf("enter the size of array:");
-    scanf("%d",&n);
+   char string[100];
     
-    printf("the elements of arrays are:");
-    {
-        for(i=0;i<n;i++);
-        scanf("%d",&ptr[i]);
-    }
-    
-    printf("%d",i[ptr]);
-  
-   
+   printf("Enter a string: ");
+   scanf("%s",string);
+ 
+   reverse(string);    //function calling
+ 
+   return 0;
 }
+ 
+void reverse(char *p)  //function defination
+{
+   
+    int i,c = 0;
+    for(i=0;*(p+i)!='\0';i++)
+   {
+       c++;
+   }
+   
+   printf("Reverse string= ");
+   for(i=c-1;i>=0;i--)
+   {
+       printf("%c",*(p+i));
+   }
+}
+ 
+
 
